@@ -1,0 +1,4 @@
+[console_scripts]
+number_counter = activity_service.number_counter:main
+number_publisher = activity_service.number_publisher:main
+

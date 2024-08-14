@@ -1,0 +1,6 @@
+source;share/activity_custom_interface/hook/pythonpath.ps1
+source;share/activity_custom_interface/hook/pythonpath.dsv
+source;share/activity_custom_interface/hook/pythonpath.sh
+source;share/activity_custom_interface/hook/ament_prefix_path.ps1
+source;share/activity_custom_interface/hook/ament_prefix_path.dsv
+source;share/activity_custom_interface/hook/ament_prefix_path.sh

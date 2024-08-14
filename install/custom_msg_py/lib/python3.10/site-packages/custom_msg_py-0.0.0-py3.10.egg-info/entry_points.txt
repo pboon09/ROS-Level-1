@@ -1,0 +1,3 @@
+[console_scripts]
+hw_status_publisher = custom_msg_py.hw_status_publisher:main
+
