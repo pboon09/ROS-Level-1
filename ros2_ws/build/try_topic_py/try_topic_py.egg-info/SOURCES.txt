@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/try_topic_py/try_topic_py.egg-info/PKG-INFO
+../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt
+../../build/try_topic_py/try_topic_py.egg-info/dependency_links.txt
+../../build/try_topic_py/try_topic_py.egg-info/entry_points.txt
+../../build/try_topic_py/try_topic_py.egg-info/requires.txt
+../../build/try_topic_py/try_topic_py.egg-info/top_level.txt
+../../build/try_topic_py/try_topic_py.egg-info/zip-safe
+resource/try_topic_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+try_topic_py/__init__.py
+try_topic_py/robot_news_station.py
+try_topic_py/smartphone.py

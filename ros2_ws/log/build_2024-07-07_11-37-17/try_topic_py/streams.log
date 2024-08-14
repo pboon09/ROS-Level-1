@@ -1,0 +1,22 @@
+[2.012s] Invoking command in '/home/pboon09/ros2_ws/src/try_topic_py': PYTHONPATH=/home/pboon09/ros2_ws/build/try_topic_py/prefix_override:/home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/try_topic_py build --build-base /home/pboon09/ros2_ws/build/try_topic_py/build install --record /home/pboon09/ros2_ws/build/try_topic_py/install.log --single-version-externally-managed install_data
+[2.405s] running egg_info
+[2.407s] writing ../../build/try_topic_py/try_topic_py.egg-info/PKG-INFO
+[2.408s] writing dependency_links to ../../build/try_topic_py/try_topic_py.egg-info/dependency_links.txt
+[2.408s] writing entry points to ../../build/try_topic_py/try_topic_py.egg-info/entry_points.txt
+[2.409s] writing requirements to ../../build/try_topic_py/try_topic_py.egg-info/requires.txt
+[2.409s] writing top-level names to ../../build/try_topic_py/try_topic_py.egg-info/top_level.txt
+[2.412s] reading manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+[2.413s] writing manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+[2.414s] running build
+[2.415s] running build_py
+[2.415s] running install
+[2.415s] running install_lib
+[2.418s] running install_data
+[2.419s] running install_egg_info
+[2.422s] removing '/home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.424s] Copying ../../build/try_topic_py/try_topic_py.egg-info to /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py-0.0.0-py3.10.egg-info
+[2.428s] running install_scripts
+[2.471s] Installing robot_news_station script to /home/pboon09/ros2_ws/install/try_topic_py/lib/try_topic_py
+[2.472s] Installing smartphone script to /home/pboon09/ros2_ws/install/try_topic_py/lib/try_topic_py
+[2.472s] writing list of installed files to '/home/pboon09/ros2_ws/build/try_topic_py/install.log'
+[2.549s] Invoked command in '/home/pboon09/ros2_ws/src/try_topic_py' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/try_topic_py/prefix_override:/home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/try_topic_py build --build-base /home/pboon09/ros2_ws/build/try_topic_py/build install --record /home/pboon09/ros2_ws/build/try_topic_py/install.log --single-version-externally-managed install_data

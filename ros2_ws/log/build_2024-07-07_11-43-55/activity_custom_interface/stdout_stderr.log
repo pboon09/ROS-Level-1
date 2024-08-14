@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing activity_custom_interface.egg-info/PKG-INFO
+writing dependency_links to activity_custom_interface.egg-info/dependency_links.txt
+writing entry points to activity_custom_interface.egg-info/entry_points.txt
+writing requirements to activity_custom_interface.egg-info/requires.txt
+writing top-level names to activity_custom_interface.egg-info/top_level.txt
+reading manifest file 'activity_custom_interface.egg-info/SOURCES.txt'
+writing manifest file 'activity_custom_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity-custom-interface.egg-link (link to .)
+Installing led_panel script to /home/pboon09/ros2_ws/install/activity_custom_interface/lib/activity_custom_interface
+
+Installed /home/pboon09/ros2_ws/build/activity_custom_interface
+running symlink_data
+symbolically linking /home/pboon09/ros2_ws/build/activity_custom_interface/resource/activity_custom_interface -> /home/pboon09/ros2_ws/install/activity_custom_interface/share/ament_index/resource_index/packages
+symbolically linking /home/pboon09/ros2_ws/build/activity_custom_interface/package.xml -> /home/pboon09/ros2_ws/install/activity_custom_interface/share/activity_custom_interface

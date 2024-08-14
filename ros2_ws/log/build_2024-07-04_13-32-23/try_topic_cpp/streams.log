@@ -1,0 +1,24 @@
+[0.836s] Invoking command in '/home/pboon09/ros2_ws/build/try_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/try_topic_cpp -- -j12 -l12
+[0.926s] [ 50%] Built target robot_news_station
+[0.927s] [100%] Built target smartphone
+[1.140s] Invoked command in '/home/pboon09/ros2_ws/build/try_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/try_topic_cpp -- -j12 -l12
+[1.212s] Invoking command in '/home/pboon09/ros2_ws/build/try_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/ros2_ws/build/try_topic_cpp
+[1.228s] -- Install configuration: ""
+[1.228s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/lib/try_topic_cpp/robot_news_station
+[1.228s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/lib/try_topic_cpp/smartphone
+[1.228s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/ament_index/resource_index/package_run_dependencies/try_topic_cpp
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/ament_index/resource_index/parent_prefix_path/try_topic_cpp
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/environment/ament_prefix_path.sh
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/environment/ament_prefix_path.dsv
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/environment/path.sh
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/environment/path.dsv
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/local_setup.bash
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/local_setup.sh
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/local_setup.zsh
+[1.229s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/local_setup.dsv
+[1.230s] -- Installing: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/package.dsv
+[1.230s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/ament_index/resource_index/packages/try_topic_cpp
+[1.230s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/cmake/try_topic_cppConfig.cmake
+[1.230s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/cmake/try_topic_cppConfig-version.cmake
+[1.230s] -- Up-to-date: /home/pboon09/ros2_ws/install/try_topic_cpp/share/try_topic_cpp/package.xml
+[1.232s] Invoked command in '/home/pboon09/ros2_ws/build/try_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/ros2_ws/build/try_topic_cpp

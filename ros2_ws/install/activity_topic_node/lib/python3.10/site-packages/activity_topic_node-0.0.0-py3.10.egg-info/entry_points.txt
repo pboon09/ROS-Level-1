@@ -1,0 +1,4 @@
+[console_scripts]
+number_counter = activity_topic_node.number_counter:main
+number_publisher = activity_topic_node.number_publisher:main
+

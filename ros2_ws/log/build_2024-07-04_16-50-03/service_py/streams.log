@@ -1,0 +1,23 @@
+[1.833s] Invoking command in '/home/pboon09/ros2_ws/src/service_py': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_py build --build-base /home/pboon09/ros2_ws/build/service_py/build install --record /home/pboon09/ros2_ws/build/service_py/install.log --single-version-externally-managed install_data
+[2.113s] running egg_info
+[2.114s] writing ../../build/service_py/service_py.egg-info/PKG-INFO
+[2.114s] writing dependency_links to ../../build/service_py/service_py.egg-info/dependency_links.txt
+[2.115s] writing entry points to ../../build/service_py/service_py.egg-info/entry_points.txt
+[2.115s] writing requirements to ../../build/service_py/service_py.egg-info/requires.txt
+[2.115s] writing top-level names to ../../build/service_py/service_py.egg-info/top_level.txt
+[2.117s] reading manifest file '../../build/service_py/service_py.egg-info/SOURCES.txt'
+[2.118s] writing manifest file '../../build/service_py/service_py.egg-info/SOURCES.txt'
+[2.118s] running build
+[2.118s] running build_py
+[2.118s] running install
+[2.119s] running install_lib
+[2.120s] running install_data
+[2.120s] running install_egg_info
+[2.122s] removing '/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.123s] Copying ../../build/service_py/service_py.egg-info to /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py-0.0.0-py3.10.egg-info
+[2.124s] running install_scripts
+[2.146s] Installing add_two_ints_client script to /home/pboon09/ros2_ws/install/service_py/lib/service_py
+[2.146s] Installing add_two_ints_client_no_oop script to /home/pboon09/ros2_ws/install/service_py/lib/service_py
+[2.146s] Installing add_two_ints_server script to /home/pboon09/ros2_ws/install/service_py/lib/service_py
+[2.147s] writing list of installed files to '/home/pboon09/ros2_ws/build/service_py/install.log'
+[2.187s] Invoked command in '/home/pboon09/ros2_ws/src/service_py' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_py build --build-base /home/pboon09/ros2_ws/build/service_py/build install --record /home/pboon09/ros2_ws/build/service_py/install.log --single-version-externally-managed install_data

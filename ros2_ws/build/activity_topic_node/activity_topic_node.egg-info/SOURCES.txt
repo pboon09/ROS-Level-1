@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/activity_topic_node/activity_topic_node.egg-info/PKG-INFO
+../../build/activity_topic_node/activity_topic_node.egg-info/SOURCES.txt
+../../build/activity_topic_node/activity_topic_node.egg-info/dependency_links.txt
+../../build/activity_topic_node/activity_topic_node.egg-info/entry_points.txt
+../../build/activity_topic_node/activity_topic_node.egg-info/requires.txt
+../../build/activity_topic_node/activity_topic_node.egg-info/top_level.txt
+../../build/activity_topic_node/activity_topic_node.egg-info/zip-safe
+activity_topic_node/__init__.py
+activity_topic_node/number_counter.py
+activity_topic_node/number_publisher.py
+resource/activity_topic_node
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

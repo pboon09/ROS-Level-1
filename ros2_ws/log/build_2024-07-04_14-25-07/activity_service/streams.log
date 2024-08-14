@@ -1,0 +1,20 @@
+[0.617s] Invoking command in '/home/pboon09/ros2_ws/build/activity_service': PYTHONPATH=/home/pboon09/ros2_ws/build/activity_service/prefix_override:/home/pboon09/ros2_ws/install/activity_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pboon09/ros2_ws/build/activity_service/build --no-deps symlink_data --force
+[0.886s] running develop
+[1.035s] running egg_info
+[1.035s] writing activity_service.egg-info/PKG-INFO
+[1.036s] writing dependency_links to activity_service.egg-info/dependency_links.txt
+[1.036s] writing entry points to activity_service.egg-info/entry_points.txt
+[1.036s] writing requirements to activity_service.egg-info/requires.txt
+[1.036s] writing top-level names to activity_service.egg-info/top_level.txt
+[1.037s] reading manifest file 'activity_service.egg-info/SOURCES.txt'
+[1.038s] writing manifest file 'activity_service.egg-info/SOURCES.txt'
+[1.039s] running build_ext
+[1.039s] Creating /home/pboon09/ros2_ws/install/activity_service/lib/python3.10/site-packages/activity-service.egg-link (link to .)
+[1.040s] Installing number_counter script to /home/pboon09/ros2_ws/install/activity_service/lib/activity_service
+[1.040s] Installing number_publisher script to /home/pboon09/ros2_ws/install/activity_service/lib/activity_service
+[1.041s] 
+[1.041s] Installed /home/pboon09/ros2_ws/build/activity_service
+[1.041s] running symlink_data
+[1.041s] symbolically linking /home/pboon09/ros2_ws/build/activity_service/resource/activity_service -> /home/pboon09/ros2_ws/install/activity_service/share/ament_index/resource_index/packages
+[1.041s] symbolically linking /home/pboon09/ros2_ws/build/activity_service/package.xml -> /home/pboon09/ros2_ws/install/activity_service/share/activity_service
+[1.078s] Invoked command in '/home/pboon09/ros2_ws/build/activity_service' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/activity_service/prefix_override:/home/pboon09/ros2_ws/install/activity_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pboon09/ros2_ws/build/activity_service/build --no-deps symlink_data --force

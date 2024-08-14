@@ -1,0 +1,22 @@
+[2.357s] Invoking command in '/home/pboon09/ros2_ws/src/activity_service': PYTHONPATH=/home/pboon09/ros2_ws/build/activity_service/prefix_override:/home/pboon09/ros2_ws/install/activity_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activity_service build --build-base /home/pboon09/ros2_ws/build/activity_service/build install --record /home/pboon09/ros2_ws/build/activity_service/install.log --single-version-externally-managed install_data
+[2.793s] running egg_info
+[2.795s] writing ../../build/activity_service/activity_service.egg-info/PKG-INFO
+[2.795s] writing dependency_links to ../../build/activity_service/activity_service.egg-info/dependency_links.txt
+[2.796s] writing entry points to ../../build/activity_service/activity_service.egg-info/entry_points.txt
+[2.796s] writing requirements to ../../build/activity_service/activity_service.egg-info/requires.txt
+[2.796s] writing top-level names to ../../build/activity_service/activity_service.egg-info/top_level.txt
+[2.800s] reading manifest file '../../build/activity_service/activity_service.egg-info/SOURCES.txt'
+[2.801s] writing manifest file '../../build/activity_service/activity_service.egg-info/SOURCES.txt'
+[2.802s] running build
+[2.802s] running build_py
+[2.802s] running install
+[2.804s] running install_lib
+[2.806s] running install_data
+[2.807s] running install_egg_info
+[2.810s] removing '/home/pboon09/ros2_ws/install/activity_service/lib/python3.10/site-packages/activity_service-0.0.0-py3.10.egg-info' (and everything under it)
+[2.810s] Copying ../../build/activity_service/activity_service.egg-info to /home/pboon09/ros2_ws/install/activity_service/lib/python3.10/site-packages/activity_service-0.0.0-py3.10.egg-info
+[2.812s] running install_scripts
+[2.858s] Installing number_counter script to /home/pboon09/ros2_ws/install/activity_service/lib/activity_service
+[2.859s] Installing number_publisher script to /home/pboon09/ros2_ws/install/activity_service/lib/activity_service
+[2.860s] writing list of installed files to '/home/pboon09/ros2_ws/build/activity_service/install.log'
+[3.123s] Invoked command in '/home/pboon09/ros2_ws/src/activity_service' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/activity_service/prefix_override:/home/pboon09/ros2_ws/install/activity_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activity_service build --build-base /home/pboon09/ros2_ws/build/activity_service/build install --record /home/pboon09/ros2_ws/build/activity_service/install.log --single-version-externally-managed install_data

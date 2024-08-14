@@ -1,0 +1,24 @@
+[0.076s] Invoking command in '/home/pboon09/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/my_robot_interfaces -- -j12 -l12
+[1.265s] [33mCMake Warning (dev) at CMakeLists.txt:17:
+[1.266s]   Syntax Warning in cmake code at column 27
+[1.266s] 
+[1.266s]   Argument not separated from preceding token by whitespace.
+[1.266s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.266s] [0m
+[1.266s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.266s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[1.267s]   the CMAKE_CURRENT_SOURCE_DIR
+[1.267s]   '/home/pboon09/ros2_ws/src/my_robot_interfaces'
+[1.267s] Call Stack (most recent call first):
+[1.268s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.268s] 
+[1.268s] [0m
+[1.269s] gmake: *** [Makefile:870: cmake_check_build_system] Error 1
+[1.269s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.269s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.270s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.271s] -- Configuring incomplete, errors occurred!
+[1.271s] See also "/home/pboon09/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[1.274s] Invoked command in '/home/pboon09/ros2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/try_topic_py:/home/pboon09/ros2_ws/install/service_py:/home/pboon09/ros2_ws/install/custom_msg_py:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/activity_topic_node:/home/pboon09/ros2_ws/install/activity_service:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/my_robot_interfaces -- -j12 -l12

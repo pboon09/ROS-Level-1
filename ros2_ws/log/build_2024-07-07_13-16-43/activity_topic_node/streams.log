@@ -1,0 +1,22 @@
+[1.979s] Invoking command in '/home/pboon09/ros2_ws/src/activity_topic_node': PYTHONPATH=/home/pboon09/ros2_ws/build/activity_topic_node/prefix_override:/home/pboon09/ros2_ws/install/activity_topic_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activity_topic_node build --build-base /home/pboon09/ros2_ws/build/activity_topic_node/build install --record /home/pboon09/ros2_ws/build/activity_topic_node/install.log --single-version-externally-managed install_data
+[2.269s] running egg_info
+[2.270s] writing ../../build/activity_topic_node/activity_topic_node.egg-info/PKG-INFO
+[2.270s] writing dependency_links to ../../build/activity_topic_node/activity_topic_node.egg-info/dependency_links.txt
+[2.270s] writing entry points to ../../build/activity_topic_node/activity_topic_node.egg-info/entry_points.txt
+[2.271s] writing requirements to ../../build/activity_topic_node/activity_topic_node.egg-info/requires.txt
+[2.271s] writing top-level names to ../../build/activity_topic_node/activity_topic_node.egg-info/top_level.txt
+[2.273s] reading manifest file '../../build/activity_topic_node/activity_topic_node.egg-info/SOURCES.txt'
+[2.273s] writing manifest file '../../build/activity_topic_node/activity_topic_node.egg-info/SOURCES.txt'
+[2.273s] running build
+[2.273s] running build_py
+[2.274s] running install
+[2.274s] running install_lib
+[2.276s] running install_data
+[2.276s] running install_egg_info
+[2.278s] removing '/home/pboon09/ros2_ws/install/activity_topic_node/lib/python3.10/site-packages/activity_topic_node-0.0.0-py3.10.egg-info' (and everything under it)
+[2.280s] Copying ../../build/activity_topic_node/activity_topic_node.egg-info to /home/pboon09/ros2_ws/install/activity_topic_node/lib/python3.10/site-packages/activity_topic_node-0.0.0-py3.10.egg-info
+[2.280s] running install_scripts
+[2.310s] Installing number_counter script to /home/pboon09/ros2_ws/install/activity_topic_node/lib/activity_topic_node
+[2.310s] Installing number_publisher script to /home/pboon09/ros2_ws/install/activity_topic_node/lib/activity_topic_node
+[2.311s] writing list of installed files to '/home/pboon09/ros2_ws/build/activity_topic_node/install.log'
+[2.621s] Invoked command in '/home/pboon09/ros2_ws/src/activity_topic_node' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/activity_topic_node/prefix_override:/home/pboon09/ros2_ws/install/activity_topic_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/activity_topic_node build --build-base /home/pboon09/ros2_ws/build/activity_topic_node/build install --record /home/pboon09/ros2_ws/build/activity_topic_node/install.log --single-version-externally-managed install_data

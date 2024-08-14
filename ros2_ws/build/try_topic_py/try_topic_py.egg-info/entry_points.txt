@@ -1,0 +1,4 @@
+[console_scripts]
+robot_news_station = TryTopic.robot_news_station:main
+smartphone = TryTopic.smartphone:main
+

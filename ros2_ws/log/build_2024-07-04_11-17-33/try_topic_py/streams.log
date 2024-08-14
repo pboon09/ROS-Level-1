@@ -1,0 +1,41 @@
+[1.200s] Invoking command in '/home/pboon09/ros2_ws/src/try_topic_py': PYTHONPATH=/home/pboon09/ros2_ws/build/try_topic_py/prefix_override:/home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/try_topic_py build --build-base /home/pboon09/ros2_ws/build/try_topic_py/build install --record /home/pboon09/ros2_ws/build/try_topic_py/install.log --single-version-externally-managed install_data
+[1.519s] running egg_info
+[1.520s] creating ../../build/try_topic_py/try_topic_py.egg-info
+[1.521s] writing ../../build/try_topic_py/try_topic_py.egg-info/PKG-INFO
+[1.521s] writing dependency_links to ../../build/try_topic_py/try_topic_py.egg-info/dependency_links.txt
+[1.521s] writing entry points to ../../build/try_topic_py/try_topic_py.egg-info/entry_points.txt
+[1.521s] writing requirements to ../../build/try_topic_py/try_topic_py.egg-info/requires.txt
+[1.521s] writing top-level names to ../../build/try_topic_py/try_topic_py.egg-info/top_level.txt
+[1.521s] writing manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+[1.523s] reading manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+[1.524s] writing manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+[1.524s] running build
+[1.525s] running build_py
+[1.525s] creating /home/pboon09/ros2_ws/build/try_topic_py/build
+[1.525s] creating /home/pboon09/ros2_ws/build/try_topic_py/build/lib
+[1.525s] creating /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+[1.525s] copying try_topic_py/smartphone.py -> /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+[1.525s] copying try_topic_py/__init__.py -> /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+[1.525s] copying try_topic_py/robot_news_station.py -> /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+[1.525s] running install
+[1.526s] running install_lib
+[1.527s] creating /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+[1.527s] copying /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py/smartphone.py -> /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+[1.527s] copying /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py/__init__.py -> /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+[1.527s] copying /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py/robot_news_station.py -> /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+[1.528s] byte-compiling /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py/smartphone.py to smartphone.cpython-310.pyc
+[1.528s] byte-compiling /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py/__init__.py to __init__.cpython-310.pyc
+[1.528s] byte-compiling /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.529s] running install_data
+[1.529s] creating /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index
+[1.529s] creating /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index/resource_index
+[1.529s] creating /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index/resource_index/packages
+[1.529s] copying resource/try_topic_py -> /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index/resource_index/packages
+[1.529s] copying package.xml -> /home/pboon09/ros2_ws/install/try_topic_py/share/try_topic_py
+[1.529s] running install_egg_info
+[1.531s] Copying ../../build/try_topic_py/try_topic_py.egg-info to /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py-0.0.0-py3.10.egg-info
+[1.532s] running install_scripts
+[1.555s] Installing robot_news_station script to /home/pboon09/ros2_ws/install/try_topic_py/lib/try_topic_py
+[1.555s] Installing smartphone script to /home/pboon09/ros2_ws/install/try_topic_py/lib/try_topic_py
+[1.556s] writing list of installed files to '/home/pboon09/ros2_ws/build/try_topic_py/install.log'
+[1.619s] Invoked command in '/home/pboon09/ros2_ws/src/try_topic_py' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/try_topic_py/prefix_override:/home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/try_topic_py build --build-base /home/pboon09/ros2_ws/build/try_topic_py/build install --record /home/pboon09/ros2_ws/build/try_topic_py/install.log --single-version-externally-managed install_data
