@@ -1,0 +1,4 @@
+[console_scripts]
+battery = activity_custom_interface.battery:main
+led_panel = activity_custom_interface.led_panel:main
+
