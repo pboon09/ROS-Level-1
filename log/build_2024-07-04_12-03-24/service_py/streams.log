@@ -1,0 +1,24 @@
+[0.618s] Invoking command in '/home/pboon09/ros2_ws/build/service_py': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pboon09/ros2_ws/build/service_py/build --no-deps symlink_data
+[0.886s] running develop
+[1.033s] running egg_info
+[1.033s] creating service_py.egg-info
+[1.033s] writing service_py.egg-info/PKG-INFO
+[1.033s] writing dependency_links to service_py.egg-info/dependency_links.txt
+[1.033s] writing entry points to service_py.egg-info/entry_points.txt
+[1.033s] writing requirements to service_py.egg-info/requires.txt
+[1.033s] writing top-level names to service_py.egg-info/top_level.txt
+[1.034s] writing manifest file 'service_py.egg-info/SOURCES.txt'
+[1.035s] reading manifest file 'service_py.egg-info/SOURCES.txt'
+[1.035s] writing manifest file 'service_py.egg-info/SOURCES.txt'
+[1.037s] running build_ext
+[1.037s] Creating /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service-py.egg-link (link to .)
+[1.038s] Installing add_two_ints_server script to /home/pboon09/ros2_ws/install/service_py/lib/service_py
+[1.038s] 
+[1.038s] Installed /home/pboon09/ros2_ws/build/service_py
+[1.038s] running symlink_data
+[1.038s] creating /home/pboon09/ros2_ws/install/service_py/share/ament_index
+[1.038s] creating /home/pboon09/ros2_ws/install/service_py/share/ament_index/resource_index
+[1.038s] creating /home/pboon09/ros2_ws/install/service_py/share/ament_index/resource_index/packages
+[1.038s] symbolically linking /home/pboon09/ros2_ws/build/service_py/resource/service_py -> /home/pboon09/ros2_ws/install/service_py/share/ament_index/resource_index/packages
+[1.038s] symbolically linking /home/pboon09/ros2_ws/build/service_py/package.xml -> /home/pboon09/ros2_ws/install/service_py/share/service_py
+[1.076s] Invoked command in '/home/pboon09/ros2_ws/build/service_py' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pboon09/ros2_ws/build/service_py/build --no-deps symlink_data

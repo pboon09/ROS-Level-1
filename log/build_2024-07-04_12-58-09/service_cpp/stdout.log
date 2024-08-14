@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[100%] Built target add_two_ints_server
+-- Install configuration: ""
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/lib/service_cpp/add_two_ints_server
+-- Set runtime path of "/home/pboon09/ros2_ws/install/service_cpp/lib/service_cpp/add_two_ints_server" to ""
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/ament_index/resource_index/package_run_dependencies/service_cpp
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/ament_index/resource_index/parent_prefix_path/service_cpp
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/path.sh
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/path.dsv
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.bash
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.sh
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.zsh
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.dsv
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/package.dsv
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/ament_index/resource_index/packages/service_cpp
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/cmake/service_cppConfig.cmake
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/cmake/service_cppConfig-version.cmake
+-- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/package.xml

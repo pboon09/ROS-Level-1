@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/try_topic_py/try_topic_py.egg-info
+writing ../../build/try_topic_py/try_topic_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/try_topic_py/try_topic_py.egg-info/dependency_links.txt
+writing entry points to ../../build/try_topic_py/try_topic_py.egg-info/entry_points.txt
+writing requirements to ../../build/try_topic_py/try_topic_py.egg-info/requires.txt
+writing top-level names to ../../build/try_topic_py/try_topic_py.egg-info/top_level.txt
+writing manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/try_topic_py/try_topic_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pboon09/ros2_ws/build/try_topic_py/build
+creating /home/pboon09/ros2_ws/build/try_topic_py/build/lib
+creating /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+copying try_topic_py/smartphone.py -> /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+copying try_topic_py/__init__.py -> /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+copying try_topic_py/robot_news_station.py -> /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py
+running install
+running install_lib
+creating /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+copying /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py/smartphone.py -> /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+copying /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py/__init__.py -> /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+copying /home/pboon09/ros2_ws/build/try_topic_py/build/lib/try_topic_py/robot_news_station.py -> /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py
+byte-compiling /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py/smartphone.py to smartphone.cpython-310.pyc
+byte-compiling /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py/robot_news_station.py to robot_news_station.cpython-310.pyc
+running install_data
+creating /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index
+creating /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index/resource_index
+creating /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index/resource_index/packages
+copying resource/try_topic_py -> /home/pboon09/ros2_ws/install/try_topic_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/pboon09/ros2_ws/install/try_topic_py/share/try_topic_py
+running install_egg_info
+Copying ../../build/try_topic_py/try_topic_py.egg-info to /home/pboon09/ros2_ws/install/try_topic_py/lib/python3.10/site-packages/try_topic_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_news_station script to /home/pboon09/ros2_ws/install/try_topic_py/lib/try_topic_py
+Installing smartphone script to /home/pboon09/ros2_ws/install/try_topic_py/lib/try_topic_py
+writing list of installed files to '/home/pboon09/ros2_ws/build/try_topic_py/install.log'

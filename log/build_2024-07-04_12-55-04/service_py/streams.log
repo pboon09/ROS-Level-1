@@ -1,0 +1,44 @@
+[1.540s] Invoking command in '/home/pboon09/ros2_ws/build/service_py': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pboon09/ros2_ws/build/service_py/build
+[1.814s] running develop
+[1.966s] Removing /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service-py.egg-link (link to .)
+[2.005s] Invoked command in '/home/pboon09/ros2_ws/build/service_py' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pboon09/ros2_ws/build/service_py/build
+[2.007s] Invoking command in '/home/pboon09/ros2_ws/src/service_py': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_py build --build-base /home/pboon09/ros2_ws/build/service_py/build install --record /home/pboon09/ros2_ws/build/service_py/install.log --single-version-externally-managed install_data --force
+[2.247s] running egg_info
+[2.248s] writing ../../build/service_py/service_py.egg-info/PKG-INFO
+[2.248s] writing dependency_links to ../../build/service_py/service_py.egg-info/dependency_links.txt
+[2.248s] writing entry points to ../../build/service_py/service_py.egg-info/entry_points.txt
+[2.248s] writing requirements to ../../build/service_py/service_py.egg-info/requires.txt
+[2.249s] writing top-level names to ../../build/service_py/service_py.egg-info/top_level.txt
+[2.251s] reading manifest file '../../build/service_py/service_py.egg-info/SOURCES.txt'
+[2.252s] writing manifest file '../../build/service_py/service_py.egg-info/SOURCES.txt'
+[2.252s] running build
+[2.252s] running build_py
+[2.252s] creating /home/pboon09/ros2_ws/build/service_py/build
+[2.253s] creating /home/pboon09/ros2_ws/build/service_py/build/lib
+[2.253s] creating /home/pboon09/ros2_ws/build/service_py/build/lib/service_py
+[2.253s] copying service_py/add_two_ints_server.py -> /home/pboon09/ros2_ws/build/service_py/build/lib/service_py
+[2.253s] copying service_py/add_two_ints_client_no_oop.py -> /home/pboon09/ros2_ws/build/service_py/build/lib/service_py
+[2.253s] copying service_py/__init__.py -> /home/pboon09/ros2_ws/build/service_py/build/lib/service_py
+[2.253s] copying service_py/add_two_ints_client.py -> /home/pboon09/ros2_ws/build/service_py/build/lib/service_py
+[2.253s] running install
+[2.253s] running install_lib
+[2.254s] creating /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py
+[2.254s] copying /home/pboon09/ros2_ws/build/service_py/build/lib/service_py/add_two_ints_server.py -> /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py
+[2.254s] copying /home/pboon09/ros2_ws/build/service_py/build/lib/service_py/add_two_ints_client_no_oop.py -> /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py
+[2.254s] copying /home/pboon09/ros2_ws/build/service_py/build/lib/service_py/__init__.py -> /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py
+[2.255s] copying /home/pboon09/ros2_ws/build/service_py/build/lib/service_py/add_two_ints_client.py -> /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py
+[2.255s] byte-compiling /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[2.256s] byte-compiling /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[2.256s] byte-compiling /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py/__init__.py to __init__.cpython-310.pyc
+[2.256s] byte-compiling /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[2.257s] running install_data
+[2.257s] copying resource/service_py -> /home/pboon09/ros2_ws/install/service_py/share/ament_index/resource_index/packages
+[2.257s] copying package.xml -> /home/pboon09/ros2_ws/install/service_py/share/service_py
+[2.257s] running install_egg_info
+[2.259s] Copying ../../build/service_py/service_py.egg-info to /home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages/service_py-0.0.0-py3.10.egg-info
+[2.260s] running install_scripts
+[2.278s] Installing add_two_ints_client script to /home/pboon09/ros2_ws/install/service_py/lib/service_py
+[2.279s] Installing add_two_ints_client_no_oop script to /home/pboon09/ros2_ws/install/service_py/lib/service_py
+[2.279s] Installing add_two_ints_server script to /home/pboon09/ros2_ws/install/service_py/lib/service_py
+[2.279s] writing list of installed files to '/home/pboon09/ros2_ws/build/service_py/install.log'
+[2.310s] Invoked command in '/home/pboon09/ros2_ws/src/service_py' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/service_py/prefix_override:/home/pboon09/ros2_ws/install/service_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_py build --build-base /home/pboon09/ros2_ws/build/service_py/build install --record /home/pboon09/ros2_ws/build/service_py/install.log --single-version-externally-managed install_data --force

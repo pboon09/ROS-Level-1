@@ -1,0 +1,22 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pboon09/ros2_ws/build/my_robot_bringup
+-- Install configuration: ""
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+-- Installing: /home/pboon09/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml

@@ -1,0 +1,24 @@
+[0.329s] Invoking command in '/home/pboon09/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.890s] [ 50%] Built target cpp_node_1
+[0.891s] [100%] Built target cpp_node_2
+[0.893s] Invoked command in '/home/pboon09/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[1.190s] Invoking command in '/home/pboon09/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/ros2_ws/build/my_cpp_pkg
+[1.203s] -- Install configuration: ""
+[1.204s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_1
+[1.204s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_2
+[1.204s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.204s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.204s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.204s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.205s] -- Installing: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.205s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.206s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.206s] -- Up-to-date: /home/pboon09/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.208s] Invoked command in '/home/pboon09/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/ros2_ws/build/my_cpp_pkg

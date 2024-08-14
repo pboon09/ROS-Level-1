@@ -1,0 +1,48 @@
+[1.194s] Invoking command in '/home/pboon09/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/pboon09/ros2_ws/build/my_py_pkg/prefix_override:/home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pboon09/ros2_ws/build/my_py_pkg/build install --record /home/pboon09/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.516s] running egg_info
+[1.517s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[1.517s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.517s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.517s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.517s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.517s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.517s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.519s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.520s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.520s] running build
+[1.520s] running build_py
+[1.521s] creating /home/pboon09/ros2_ws/build/my_py_pkg/build
+[1.521s] creating /home/pboon09/ros2_ws/build/my_py_pkg/build/lib
+[1.521s] creating /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.521s] copying my_py_pkg/my_second_node.py -> /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.521s] copying my_py_pkg/templateNode.py -> /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.521s] copying my_py_pkg/__init__.py -> /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.521s] copying my_py_pkg/my_first_node.py -> /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.522s] copying my_py_pkg/my_third_node.py -> /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.522s] running install
+[1.522s] running install_lib
+[1.523s] creating /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.524s] copying /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_second_node.py -> /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.524s] copying /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/templateNode.py -> /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.524s] copying /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.524s] copying /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.524s] copying /home/pboon09/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_third_node.py -> /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.525s] byte-compiling /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_second_node.py to my_second_node.cpython-310.pyc
+[1.526s] byte-compiling /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/templateNode.py to templateNode.cpython-310.pyc
+[1.526s] byte-compiling /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.526s] byte-compiling /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.528s] byte-compiling /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_third_node.py to my_third_node.cpython-310.pyc
+[1.529s] running install_data
+[1.529s] creating /home/pboon09/ros2_ws/install/my_py_pkg/share/ament_index
+[1.529s] creating /home/pboon09/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[1.529s] creating /home/pboon09/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.530s] copying resource/my_py_pkg -> /home/pboon09/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.530s] copying package.xml -> /home/pboon09/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.530s] running install_egg_info
+[1.531s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.532s] running install_scripts
+[1.557s] Installing py_node_1 script to /home/pboon09/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.557s] Installing py_node_2 script to /home/pboon09/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.557s] Installing py_node_3 script to /home/pboon09/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.557s] writing list of installed files to '/home/pboon09/ros2_ws/build/my_py_pkg/install.log'
+[1.606s] Invoked command in '/home/pboon09/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/pboon09/ros2_ws/build/my_py_pkg/prefix_override:/home/pboon09/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pboon09/ros2_ws/build/my_py_pkg/build install --record /home/pboon09/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/custom_msg_py/custom_msg_py.egg-info
+writing ../../build/custom_msg_py/custom_msg_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_msg_py/custom_msg_py.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_msg_py/custom_msg_py.egg-info/entry_points.txt
+writing requirements to ../../build/custom_msg_py/custom_msg_py.egg-info/requires.txt
+writing top-level names to ../../build/custom_msg_py/custom_msg_py.egg-info/top_level.txt
+writing manifest file '../../build/custom_msg_py/custom_msg_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/custom_msg_py/custom_msg_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_msg_py/custom_msg_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pboon09/ros2_ws/build/custom_msg_py/build
+creating /home/pboon09/ros2_ws/build/custom_msg_py/build/lib
+creating /home/pboon09/ros2_ws/build/custom_msg_py/build/lib/custom_msg_py
+copying custom_msg_py/__init__.py -> /home/pboon09/ros2_ws/build/custom_msg_py/build/lib/custom_msg_py
+copying custom_msg_py/hw_status_publisher.py -> /home/pboon09/ros2_ws/build/custom_msg_py/build/lib/custom_msg_py
+running install
+running install_lib
+creating /home/pboon09/ros2_ws/install/custom_msg_py/lib/python3.10/site-packages/custom_msg_py
+copying /home/pboon09/ros2_ws/build/custom_msg_py/build/lib/custom_msg_py/__init__.py -> /home/pboon09/ros2_ws/install/custom_msg_py/lib/python3.10/site-packages/custom_msg_py
+copying /home/pboon09/ros2_ws/build/custom_msg_py/build/lib/custom_msg_py/hw_status_publisher.py -> /home/pboon09/ros2_ws/install/custom_msg_py/lib/python3.10/site-packages/custom_msg_py
+byte-compiling /home/pboon09/ros2_ws/install/custom_msg_py/lib/python3.10/site-packages/custom_msg_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pboon09/ros2_ws/install/custom_msg_py/lib/python3.10/site-packages/custom_msg_py/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+running install_data
+creating /home/pboon09/ros2_ws/install/custom_msg_py/share/ament_index
+creating /home/pboon09/ros2_ws/install/custom_msg_py/share/ament_index/resource_index
+creating /home/pboon09/ros2_ws/install/custom_msg_py/share/ament_index/resource_index/packages
+copying resource/custom_msg_py -> /home/pboon09/ros2_ws/install/custom_msg_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/pboon09/ros2_ws/install/custom_msg_py/share/custom_msg_py
+running install_egg_info
+Copying ../../build/custom_msg_py/custom_msg_py.egg-info to /home/pboon09/ros2_ws/install/custom_msg_py/lib/python3.10/site-packages/custom_msg_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hw_status_publisher script to /home/pboon09/ros2_ws/install/custom_msg_py/lib/custom_msg_py
+writing list of installed files to '/home/pboon09/ros2_ws/build/custom_msg_py/install.log'

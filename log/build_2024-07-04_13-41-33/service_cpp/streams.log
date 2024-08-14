@@ -1,0 +1,80 @@
+[0.580s] Invoking command in '/home/pboon09/ros2_ws/build/service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/service_cpp -- -j12 -l12
+[0.853s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.854s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.854s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.854s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.854s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.888s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.188s] -- Found example_interfaces: 0.9.3 (/home/pboon09/microros_ws/install/example_interfaces/share/example_interfaces/cmake)
+[1.423s] -- Configuring done
+[1.445s] -- Generating done
+[1.447s] -- Build files have been written to: /home/pboon09/ros2_ws/build/service_cpp
+[1.494s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[1.496s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[1.517s] [ 16%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[1.527s] [ 50%] Built target add_two_ints_server
+[1.537s] [ 83%] Built target add_two_ints_client_no_oop
+[3.489s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:7:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KAddTwoIntsServerNode[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.490s]     7 |     [01;31m[KAddTwoIntsServerNode[m[K() : Node("add_two_ints_client")
+[3.490s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kint AddTwoIntsClientNode::AddTwoIntsServerNode()[m[K’:
+[3.490s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:7:30:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[3.490s]     7 |     AddTwoIntsServerNode() : [01;31m[KNode[m[K("add_two_ints_client")
+[3.490s]       |                              [01;31m[K^~~~[m[K
+[3.490s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:9:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kblind[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kbind[m[K’?
+[3.490s]     9 |         thread1_ = std::thread(std::[01;31m[Kblind[m[K(&AddTwoIntsClientNode::callAddTwoIntsService, this, 12, 43));
+[3.490s]       |                                     [01;31m[K^~~~~[m[K
+[3.490s]       |                                     [32m[Kbind[m[K
+[3.490s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:10:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.490s]    10 |     [01;35m[K}[m[K
+[3.491s]       |     [01;35m[K^[m[K
+[3.537s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[3.537s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:27:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuturn[m[K’ was not declared in this scope; did you mean ‘[01m[Kfuture[m[K’?
+[3.538s]    27 |             auto response = [01;31m[Kfuturn[m[K.get();
+[3.538s]       |                             [01;31m[K^~~~~~[m[K
+[3.538s]       |                             [32m[Kfuture[m[K
+[3.880s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[3.880s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[3.880s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[3.880s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.881s]                  from [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:1[m[K:
+[3.881s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = AddTwoIntsClientNode; _Args = {}; _Tp = AddTwoIntsClientNode][m[K’:
+[3.881s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = AddTwoIntsClientNode; _Args = {}; _Tp = AddTwoIntsClientNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<AddTwoIntsClientNode>][m[K’
+[3.881s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = AddTwoIntsClientNode; _Alloc = std::allocator<AddTwoIntsClientNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.881s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = AddTwoIntsClientNode; _Alloc = std::allocator<AddTwoIntsClientNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.881s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddTwoIntsClientNode>; _Args = {}; _Tp = AddTwoIntsClientNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.881s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddTwoIntsClientNode>; _Args = {}; _Tp = AddTwoIntsClientNode][m[K’
+[3.881s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = AddTwoIntsClientNode; _Alloc = std::allocator<AddTwoIntsClientNode>; _Args = {}][m[K’
+[3.881s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = AddTwoIntsClientNode; _Args = {}][m[K’
+[3.881s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:43:55:[m[K   required from here
+[3.881s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KAddTwoIntsClientNode::AddTwoIntsClientNode()[m[K’
+[3.881s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[3.881s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.881s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:4:7:[m[K [01;36m[Knote: [m[K‘[01m[KAddTwoIntsClientNode::AddTwoIntsClientNode()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[3.881s]     4 | class [01;36m[KAddTwoIntsClientNode[m[K : public rclcpp::Node
+[3.881s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.882s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:4:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[3.882s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.882s]                  from [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:1[m[K:
+[3.882s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[3.882s]  1294 |   [01;36m[KNode[m[K(
+[3.882s]       |   [01;36m[K^~~~[m[K
+[3.890s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[3.891s]   101 |   explicit [01;36m[KNode[m[K(
+[3.891s]       |            [01;36m[K^~~~[m[K
+[3.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[3.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[3.891s]    89 |   explicit [01;36m[KNode[m[K(
+[3.891s]       |            [01;36m[K^~~~[m[K
+[3.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[4.015s] gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+[4.015s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/add_two_ints_client.dir/all] Error 2
+[4.016s] gmake: *** [Makefile:146: all] Error 2
+[4.019s] Invoked command in '/home/pboon09/ros2_ws/build/service_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/service_cpp -- -j12 -l12

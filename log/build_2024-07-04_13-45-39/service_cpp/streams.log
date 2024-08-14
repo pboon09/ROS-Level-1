@@ -1,0 +1,53 @@
+[0.686s] Invoking command in '/home/pboon09/ros2_ws/build/service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/service_cpp -- -j12 -l12
+[1.008s] [ 33%] Built target add_two_ints_client_no_oop
+[1.008s] [ 66%] Built target add_two_ints_server
+[1.008s] [ 83%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[3.150s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.151s]                  from [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:1[m[K:
+[3.151s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[3.151s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:29:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.151s]    29 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%d + %d = %d"[m[K, a, b, [32m[Kresponse->sum[m[K);
+[3.151s]       |                                             [01;35m[K^~~~~~~~~~~~~~[m[K        [32m[K~~~~~~~~~~~~~[m[K
+[3.151s]       |                                                                             [32m[K|[m[K
+[3.151s]       |                                                                             [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[3.151s] [01m[K/home/pboon09/ros2_ws/src/service_cpp/src/add_two_ints_client.cpp:29:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.151s]    29 |             RCLCPP_INFO(this->get_logger(), "%d + %d = [01;36m[K%d[m[K", a, b, response->sum);
+[3.151s]       |                                                        [01;36m[K~^[m[K
+[3.151s]       |                                                         [01;36m[K|[m[K
+[3.151s]       |                                                         [01;36m[Kint[m[K
+[3.151s]       |                                                        [32m[K%ld[m[K
+[4.214s] [100%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[4.411s] [100%] Built target add_two_ints_client
+[4.430s] Invoked command in '/home/pboon09/ros2_ws/build/service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/pboon09/ros2_ws/build/service_cpp -- -j12 -l12
+[4.510s] Invoking command in '/home/pboon09/ros2_ws/build/service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/ros2_ws/build/service_cpp
+[4.522s] -- Install configuration: ""
+[4.523s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/lib/service_cpp/add_two_ints_server
+[4.523s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/lib/service_cpp/add_two_ints_client_no_oop
+[4.523s] -- Installing: /home/pboon09/ros2_ws/install/service_cpp/lib/service_cpp/add_two_ints_client
+[4.524s] -- Set runtime path of "/home/pboon09/ros2_ws/install/service_cpp/lib/service_cpp/add_two_ints_client" to ""
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/ament_index/resource_index/package_run_dependencies/service_cpp
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/ament_index/resource_index/parent_prefix_path/service_cpp
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/ament_prefix_path.sh
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/ament_prefix_path.dsv
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/path.sh
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/environment/path.dsv
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.bash
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.sh
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.zsh
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/local_setup.dsv
+[4.525s] -- Installing: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/package.dsv
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/ament_index/resource_index/packages/service_cpp
+[4.525s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/cmake/service_cppConfig.cmake
+[4.526s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/cmake/service_cppConfig-version.cmake
+[4.526s] -- Up-to-date: /home/pboon09/ros2_ws/install/service_cpp/share/service_cpp/package.xml
+[4.528s] Invoked command in '/home/pboon09/ros2_ws/build/service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pboon09/ros2_ws/install/my_py_pkg:/home/pboon09/ros2_ws/install/TryTopic:/home/pboon09/microros_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --install /home/pboon09/ros2_ws/build/service_cpp

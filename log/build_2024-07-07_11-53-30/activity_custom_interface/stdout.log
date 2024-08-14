@@ -1,0 +1,28 @@
+running develop
+Removing /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity-custom-interface.egg-link (link to .)
+running egg_info
+writing ../../build/activity_custom_interface/activity_custom_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/activity_custom_interface/activity_custom_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/activity_custom_interface/activity_custom_interface.egg-info/entry_points.txt
+writing requirements to ../../build/activity_custom_interface/activity_custom_interface.egg-info/requires.txt
+writing top-level names to ../../build/activity_custom_interface/activity_custom_interface.egg-info/top_level.txt
+reading manifest file '../../build/activity_custom_interface/activity_custom_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/activity_custom_interface/activity_custom_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+copying activity_custom_interface/led_panel.py -> /home/pboon09/ros2_ws/build/activity_custom_interface/build/lib/activity_custom_interface
+running install
+running install_lib
+creating /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity_custom_interface
+copying /home/pboon09/ros2_ws/build/activity_custom_interface/build/lib/activity_custom_interface/led_panel.py -> /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity_custom_interface
+copying /home/pboon09/ros2_ws/build/activity_custom_interface/build/lib/activity_custom_interface/__init__.py -> /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity_custom_interface
+byte-compiling /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity_custom_interface/led_panel.py to led_panel.cpython-310.pyc
+byte-compiling /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity_custom_interface/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/activity_custom_interface -> /home/pboon09/ros2_ws/install/activity_custom_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/pboon09/ros2_ws/install/activity_custom_interface/share/activity_custom_interface
+running install_egg_info
+Copying ../../build/activity_custom_interface/activity_custom_interface.egg-info to /home/pboon09/ros2_ws/install/activity_custom_interface/lib/python3.10/site-packages/activity_custom_interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing led_panel script to /home/pboon09/ros2_ws/install/activity_custom_interface/lib/activity_custom_interface
+writing list of installed files to '/home/pboon09/ros2_ws/build/activity_custom_interface/install.log'
